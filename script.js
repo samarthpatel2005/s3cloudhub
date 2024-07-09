@@ -94,3 +94,7 @@ let blog = document.getElementById("lm-1");
 blog.addEventListener("click", () => {
         window.location.href = 'blog.html';
 });
+let course = document.getElementById("lm-2");
+course.addEventListener("click", () => {
+        window.location.href = 'course.html';
+});
