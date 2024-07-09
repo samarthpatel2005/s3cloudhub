@@ -6,6 +6,7 @@
 body{
     height: 100%;
     width: 100%;
+    background-color: rgb(243, 241, 241);
 }
 nav {
     display: flex;
@@ -41,11 +42,12 @@ nav {
     display: flex;
     align-items: center;
     margin-right: 25px;
+    justify-content: center;
 }
 .home{
     color: white;
     font-size: 1.4rem;
-    margin-right: 20px;
+    margin-right: 25px;
     text-decoration: none;
 }
 .home a{
@@ -210,4 +212,18 @@ a{
     color: white;
     transition-duration: 200ms;
     cursor: pointer;
+}
+.right ion-icon{
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+}
+.right ion-icon:hover{
+    color: rgb(247, 71, 40);
 }
