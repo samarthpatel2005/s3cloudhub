@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3cloudHub</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <div class="s3">S3</div><div class="hub">CloudHub</div>
+                <div class="cat"><a href="/">Categories</a></div>
+                <div class="search">
+                    <input type="text" id="text" placeholder="Search for anything">
+                    <button id="sea"><ion-icon name="search-outline"id="see"></ion-icon></button>
+            </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">S3 Blogs</a></li>
+                    <li><a href="/">Teach With Us</a></li> 
+                </ul>
+                <ul>
+                    <li><ion-icon name="moon-outline" class="theme" onclick="Theme()"></ion-icon></li>
+                </ul>
+                <ul>
+                    <li class="cart"><ion-icon name="cart-outline" ></ion-icon><li></li>
+                </ul>
+                <div class="login">
+                    <button id="login">Log in</button>
+                    <button id="signup">Sign up</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+<div class="first" >
+        <div class="fimage" >
+                <div class="image" id="image1">
+                    <img src="pic.jpg" alt="">
+                    <div id="text1" class="text-container">
+                        <h1>Welcome To <span>S3CloudHub</span></h1>
+                        <div class="learn">Learn<span id="learn"></span></div>
+                        <p>Technology and the world of work change fast — with us, you're faster. Get the skills to achieve goals and stay competitive..</p>
+                        <div class="learn-more">
+                            <button id="lm-1">Explore Blogs</button>
+                            <button id="lm-2">Courses</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="image" id="image2">
+                    <img src="pic2.jpg" alt="">
+                    <div id="text2" class="text-container">
+                        <h1>All the skills you need in one hub</h1>
+            <p>From critical skills to technical topics, S3CloudHub empowers your professional development.</p>
+                    </div>
+                </div>
+                <div class="image" id="image3">
+                    <div id="text3" class="text-container"></div>
+                    <img src="s1.jpg" alt="">
+                     
+                </div>
+                 <!-- <img src="s5.png" alt="S3CloudHub Image" id="image1" class="image">
+                 <img src="s6.png" alt="S3CloudHub Image" id="image2" class="image">
+                 <img src="s1.jpg" alt="S3CloudHub Image" id="image3" class="image"> -->
+                 <div class="next">
+                        <ion-icon name="chevron-forward-outline" id="next"></ion-icon>
+                 </div>
+                 <div class="prev">
+                        <ion-icon name="chevron-back-outline" id="prev"></ion-icon>
+                 </div>
+        </div>
+</div>
+<div class="second">
+    <div class="fcontent">
+        <h1>Recommended Courses</h1>
+    </div>
+
+    <div class="courses">
+        <!-- HTML for the card -->
+        <div class="card" >
+            <img class="card-img-top" src="s1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn-primary">Go somewhere</a>
+                </div>
+        </div>
+        <div class="card" >
+            <img class="card-img-top" src="s1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn-primary">Go somewhere</a>
+                </div>
+        </div>
+        <div class="card" >
+            <img class="card-img-top" src="s1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn-primary">Go somewhere</a>
+                </div>
+        </div>
+    </div>
+    
+    
+</div>  
+
+<div class="third">
+    <div class="contact">
+        <div class="contact-content">
+            <h2>Get Your Custom Website Today!</h2>
+            <p>Are you looking to establish a strong online presence for your business or personal brand? Our expert team is here to help you create a stunning, customized website tailored to your unique needs.
+
+                <p>Whether you need a simple portfolio site, a robust e-commerce platform, or a dynamic business website, we have the skills and creativity to bring your vision to life.</p>
+                
+                <p>Contact us today to discuss your project requirements, get a free consultation, and receive a quote.</p>
+                
+                </p>
+            <a href="email.html" class="contact-button">Contact Us</a>
+        </div>
+    </div>
+</div>
+
+
+    </main>
+    <footer>
+        <div class="foot">
+            <div class="join-us">
+                <h2>JOIN US ON</h2>
+                <div class="join">
+                    <span id="join"></span>
+                </div>
+            </div>                                             
+            <div class="social">
+                <div class="media">
+                    <ion-icon name="logo-youtube" id="yt"></ion-icon>
+                    <span>YouTube</span>
+                </div>
+                <div class="media">
+                    <ion-icon name="logo-twitter" id="tw"></ion-icon>
+                    <span>Twitter</span>
+                </div>
+                <div class="media">
+                    <ion-icon name="logo-linkedin" id="in"></ion-icon>
+                    <span>Linkedin</span>
+                </div>
+                <div class="media">
+                    <ion-icon name="logo-facebook" id="fb"></ion-icon>
+                    <span>Facebook</span>
+                </div>
+                <div class="media">
+                    <ion-icon name="logo-instagram" id="ig"></ion-icon>
+                    <span>Instagram</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html></div>
+
+
+
+
+<!-- https://chatgpt.com/share/1be156fc-9531-47ac-b141-501a784f4d29 -->
