@@ -199,9 +199,15 @@ a{
     list-style: none;
     padding: 0.5rem;
     color: white;
+    text-decoration: none;
+}
+.tag_con a{
+    text-decoration: none;
+    color: white;
 }
 .tag_con:hover{
     background-color: rgb(240, 38, 3);
     color: white;
     transition-duration: 200ms;
+    cursor: pointer;
 }
