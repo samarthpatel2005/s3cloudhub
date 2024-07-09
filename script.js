@@ -89,3 +89,8 @@ fb.addEventListener("click", () => {
 ig.addEventListener("click", () => {
         window.open('https://www.instagram.com/s3cloudhub');
 });
+
+let blog = document.getElementById("lm-1");
+blog.addEventListener("click", () => {
+        window.location.href = 'blog.html';
+});
