@@ -124,6 +124,23 @@ a{
     gap: 1.5rem;
     grid-template-columns: repeat(4, 1fr);
 }
+@media (min-width:650px){
+    .main_con{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:1080px){
+    .main_con{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:1340px){
+    .main_con{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
 .card_con{
     overflow: hidden;
     display: flex;
