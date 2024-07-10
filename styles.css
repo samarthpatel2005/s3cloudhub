@@ -873,7 +873,7 @@ nav ul li a:hover {
             display: flex;
             flex-direction: column;
             position: relative;
-            width: 380px ;
+            width: 360px ;
         }
         /* CSS for the card */
         .card {
@@ -883,7 +883,7 @@ nav ul li a:hover {
             transition: 0.3s;
             border-radius: 5px; /* Optional: for rounded corners */
             height: 504px;
-            width: 380px;
+            width: 360px;
             margin: 25px 0;
         }
         
