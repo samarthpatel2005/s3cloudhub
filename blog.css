@@ -57,6 +57,25 @@ nav {
 .home a:hover{
     color: rgb(247, 71, 40);
 }
+.menu{
+    display: none;
+}
+media (max-width: 650px) {
+    .home {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        color: rgb(202, 54, 54);
+        font-size: 1.4rem;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+    .menu a {
+        text-decoration: none;
+        color:white;
+    }
+}
 .course{
     color: white;
     font-size: 1.6rem;
