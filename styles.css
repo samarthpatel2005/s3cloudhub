@@ -1660,7 +1660,7 @@ nav ul li a:hover {
         justify-content: center;
         align-items: center;
         display: flex;
-        margin-left: 335px;
+        margin-left: 325px;
         /* padding-top: 10px; */
     }
     /* #sea{
@@ -2994,4 +2994,5 @@ nav ul li a:hover {
             cursor: pointer;
             font-size: 1.32rem;
         }
+        
 }
