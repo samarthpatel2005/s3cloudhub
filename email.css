@@ -22,57 +22,67 @@ nav {
     position: relative;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
 }
-.left{
+
+.left {
     display: flex;
     align-items: center;
     margin-left: 25px;
 }
-.s3{
+
+.s3 {
     font-size: 1.7rem;
     color: rgb(247, 71, 40);
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 550;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
 }
-.hub{
+
+.hub {
     font-size: 1.5rem;
     padding-top: 3px;
     color: white;
 }
-.right{
+
+.right {
     display: flex;
     align-items: center;
     margin-right: 25px;
 }
-.home{
+
+.home {
     color: white;
     font-size: 1.4rem;
     margin-right: 20px;
     text-decoration: none;
 }
-.home a{
+
+.home a {
     text-decoration: none;
     color: white;
 }
-.home a:hover{
+
+.home a:hover {
     color: rgb(247, 71, 40);
 }
-.row{
+
+.row {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
     background-color: rgb(238, 234, 234);
 }
-.column{
+
+.column {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
     background-color: rgb(238, 234, 234);
 }
-.row h1{
+
+.row h1 {
     font-size: 3.5rem;
     font-weight: 600;
     color: rgb(0, 0, 0);
@@ -82,13 +92,15 @@ nav {
     font-style: normal;
     margin: 20px 0;
 }
-hr{
+
+hr {
     position: relative;
     margin-bottom: 30px;
     width: 95vw;
     border: 1px solid rgb(0, 0, 0);
 }
-.group{
+
+.group {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -96,21 +108,25 @@ hr{
     width: 50vw;
     height: 75vh;
     margin-bottom: 30px;
-    background-color: rgba(50, 50, 244, 0.951);
+    background-color: rgba(255, 255, 255, 0.951);
     border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
 }
-.form-group{
+
+.form-group {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 5px 70px;
     width: 100%;
 }
-.form-group h5{
+
+.form-group h5 {
     font-size: 1.5rem;
-    color: white;
+    color: rgb(0, 0, 0);
 }
-.form-group input{
+
+.form-group input {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -119,12 +135,15 @@ hr{
     outline: none;
     font-size: 1.2rem;
 }
-#message{
+
+#message {
     border: 0.5px solid rgb(0, 0, 0);
     border-radius: 5px;
     outline: none;
+    height: 25vh;
 }
-#btns{
+
+#btns {
     width: 30%;
     padding: 10px;
     margin: 10px 0;
@@ -132,9 +151,50 @@ hr{
     border-radius: 5px;
     outline: none;
     font-size: 1.2rem;
-    background-color: rgb(247, 71, 40);
+    background-color: rgb(74, 74, 80);
     color: white;
 }
-#btns:hover{
-    background-color: rgb(255, 0, 0);
+
+#btns:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+/* Media Queries */
+@media (max-width: 1024px){
+    .row h1 {
+        font-size: 2.5rem;
+    }
+
+    .group {
+        width: 80vw;
+        height: 85vh;
+    }
+}
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+    .row h1 {
+        font-size: 2.5rem;
+    }
+
+    .group {
+        width: 80vw;
+        height: 85vh;
+    }
+
+    .form-group input,
+    #btns {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Styles for screens smaller than 480px */
+    .row h1 {
+        font-size: 2rem;
+    }
+
+    .group {
+        width: 90vw;
+        height: 85vh;
+    }
 }
